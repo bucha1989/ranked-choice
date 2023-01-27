@@ -5,82 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="931780ec-075c-48c2-9ed0-ba14609f2c4a" name="Changes" comment="lesson-029">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2a59a387-631d-454d-ac70-39f7458e3fe4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2a59a387-631d-454d-ac70-39f7458e3fe4/storage_v2/_src_/database/ranked_choice_1.Bw2Y6Q.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2a59a387-631d-454d-ac70-39f7458e3fe4/storage_v2/_src_/database/ranked_choice_1.Bw2Y6Q/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2a59a387-631d-454d-ac70-39f7458e3fe4/storage_v2/_src_/database/ranked_choice_1.Bw2Y6Q/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2a59a387-631d-454d-ac70-39f7458e3fe4/storage_v2/_src_/database/ranked_choice_1.Bw2Y6Q/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20230126230151.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20230126230939.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20230127200938.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20230127201341.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20230127210643.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20230127210724.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20230127210958.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/fonts/fa-brands-400.329a95a9.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/fonts/fa-brands-400.89a52ae1.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/fonts/fa-brands-400.9e138496.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/fonts/fa-brands-400.c1210e5e.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/fonts/fa-regular-400.1017bce8.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/fonts/fa-regular-400.36722648.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/fonts/fa-regular-400.4079ae2d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/fonts/fa-regular-400.68c5af1f.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/fonts/fa-solid-900.07c3313b.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/fonts/fa-solid-900.ada6e6df.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/fonts/fa-solid-900.c6ec0800.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/fonts/fa-solid-900.efbd5d20.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/images/banner/collection/banner_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/images/banner/collection/banner_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/images/banner/collection/banner_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/images/banner/collection/banner_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/images/banner/collection/banner_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/images/fa-brands-400.216edb96.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/images/fa-regular-400.19e27d34.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/images/fa-solid-900.13de59f1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/images/icons/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/images/icons/logo_366x79.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/images/icons/short-logo_115x115.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ProfileController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/EditProductFormType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/ProfileEditFormType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ProductRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Security/EmailVerifier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Security/LoginFormAuthenticator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/_embed/_flash_messages.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/_embed/_footer.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/_embed/_header.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/_embed/_menu/_desktop_menu.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/_embed/_menu/_mobile_menu.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/default/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/default/product_edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/profile/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/profile/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/confirmation_email.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/register.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/SecurityController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Security/Admin/LoginFormAuthenticator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/_embed/_main/_sidebar.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/_embed/_main/_topbar.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/_embed/_utils/_flash_message.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/layout/layout_empty_page.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/layout/layout_main.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/pages/dashboard.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/security/login.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,25 +175,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/sergey/web/ranked-choice.shop/templates/main/default&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/sergey/web/ranked-choice.shop/templates/main/default",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates/main/default" />
@@ -265,6 +202,7 @@
       <recent name="$PROJECT_DIR$/templates/main/_embed" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/build" />
       <recent name="$PROJECT_DIR$/templates/main" />
     </key>
   </component>
@@ -285,7 +223,7 @@
       <workItem from="1674766902801" duration="8164000" />
       <workItem from="1674809684919" duration="642000" />
       <workItem from="1674831951878" duration="3980000" />
-      <workItem from="1674848923048" duration="6644000" />
+      <workItem from="1674848923048" duration="10037000" />
     </task>
     <task id="LOCAL-00001" summary="lesson-007">
       <created>1674768602793</created>
@@ -294,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674768602793</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson-029">
+      <created>1674857061574</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674857061574</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
