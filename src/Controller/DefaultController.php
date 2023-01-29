@@ -23,58 +23,9 @@ class DefaultController extends AbstractController
         $entityManager = $this->getDoctrine()->getManager();
         $productList = $entityManager->getRepository(Product::class)->findAll();
 
-//        dd($productList);
-
         return $this->render('main/default/index.html.twig', [
             'productList' => '$productList',
         ]);
     }
-
-    /**
-     * @Route("/product-add-old", methods="GET", name="product_add_old")
-     */
-    public function productAdd(): Response
-    {
-        $product = new Product();
-        $product->setTitle('Product' . rand(1, 100));
-        $product->setDescription('smth');
-        $product->setPrice(10);
-        $product->setQuantity(1);
-
-        $entityManager = $this->getDoctrine()->getManager();
-        $entityManager->persist($product);
-        $entityManager->flush();
-
-        return $this->redirectToRoute('main_homepage');
-    }
-
-    /**
-     * @Route("/product-edit/{id}", methods="GET|POST", name="product_edit", requirements={"id"="\d+"})
-     * @Route("/product-add", methods="GET|POST", name="product_add")
-     */
-    public function productEdit(Request $request, int $id = null): Response
-    {
-        $entityManager = $this->getDoctrine()->getManager();
-
-        if ($id) {
-            $product = $entityManager->getRepository(Product::class)->find($id);
-        } else {
-
-            $product = new Product();
-        }
-
-        $form = $this->createForm(EditProductFormType::class, $product);
-
-        $form->handleRequest($request);
-        if ($form->isSubmitted() && $form->isValid()) {
-            $entityManager->persist($product);
-            $entityManager->flush();
-
-            return $this->redirectToRoute('product_edit', ['id' => $product->getId()]);
-        }
-
-        return $this->render('main/default/product_edit.html.twig', [
-            'form' => $form->createView()
-        ]);
-    }
 }
+

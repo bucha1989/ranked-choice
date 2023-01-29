@@ -4,8 +4,57 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1fd0a8f892d029b1aba2d63a5dc988de",
+    "content-hash": "5f6c5014623c673a0264b262abbbe1da",
     "packages": [
+        {
+            "name": "behat/transliterator",
+            "version": "v1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Behat/Transliterator.git",
+                "reference": "baac5873bac3749887d28ab68e2f74db3a4408af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Behat/Transliterator/zipball/baac5873bac3749887d28ab68e2f74db3a4408af",
+                "reference": "baac5873bac3749887d28ab68e2f74db3a4408af",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "chuyskywalker/rolling-curl": "^3.1",
+                "php-yaoi/php-yaoi": "^1.0",
+                "phpunit/phpunit": "^8.5.25 || ^9.5.19"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Behat\\Transliterator\\": "src/Behat/Transliterator"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Artistic-1.0"
+            ],
+            "description": "String transliterator",
+            "keywords": [
+                "i18n",
+                "slug",
+                "transliterator"
+            ],
+            "support": {
+                "issues": "https://github.com/Behat/Transliterator/issues",
+                "source": "https://github.com/Behat/Transliterator/tree/v1.5.0"
+            },
+            "time": "2022-03-30T09:27:43+00:00"
+        },
         {
             "name": "doctrine/annotations",
             "version": "1.14.2",
@@ -1529,6 +1578,331 @@
             "time": "2022-10-17T19:48:16+00:00"
         },
         {
+            "name": "gedmo/doctrine-extensions",
+            "version": "v3.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine-extensions/DoctrineExtensions.git",
+                "reference": "85d58c24584a50db3872357ab6a68e3479ae7590"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine-extensions/DoctrineExtensions/zipball/85d58c24584a50db3872357ab6a68e3479ae7590",
+                "reference": "85d58c24584a50db3872357ab6a68e3479ae7590",
+                "shasum": ""
+            },
+            "require": {
+                "behat/transliterator": "~1.2",
+                "doctrine/annotations": "^1.13",
+                "doctrine/collections": "^1.0",
+                "doctrine/common": "^2.13 || ^3.0",
+                "doctrine/event-manager": "^1.0",
+                "doctrine/persistence": "^1.3.3 || ^2.0",
+                "php": "^7.2 || ^8.0"
+            },
+            "conflict": {
+                "doctrine/cache": "<1.11",
+                "doctrine/dbal": "<2.13.1 || ^3.0 <3.2",
+                "doctrine/mongodb-odm": "<2.0",
+                "doctrine/orm": "<2.10.2",
+                "sebastian/comparator": "<2.0"
+            },
+            "require-dev": {
+                "doctrine/cache": "^1.11 || ^2.0",
+                "doctrine/dbal": "^2.13.1 || ^3.2",
+                "doctrine/doctrine-bundle": "^2.3",
+                "doctrine/mongodb-odm": "^2.0",
+                "doctrine/orm": "^2.10.2",
+                "friendsofphp/php-cs-fixer": "^3.0",
+                "phpstan/phpstan": "^1.1",
+                "phpstan/phpstan-doctrine": "^1.0",
+                "phpstan/phpstan-phpunit": "^1.0",
+                "phpunit/phpunit": "^8.5 || ^9.5",
+                "symfony/cache": "^4.4 || ^5.3 || ^6.0",
+                "symfony/console": "^4.4 || ^5.3 || ^6.0",
+                "symfony/yaml": "^4.4 || ^5.3 || ^6.0"
+            },
+            "suggest": {
+                "doctrine/mongodb-odm": "to use the extensions with the MongoDB ODM",
+                "doctrine/orm": "to use the extensions with the ORM",
+                "symfony/cache": "to cache parsed annotations"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "3.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Gedmo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gediminas Morkevicius",
+                    "email": "gediminas.morkevicius@gmail.com"
+                },
+                {
+                    "name": "Gustavo Falco",
+                    "email": "comfortablynumb84@gmail.com"
+                },
+                {
+                    "name": "David Buchmann",
+                    "email": "david@liip.ch"
+                }
+            ],
+            "description": "Doctrine2 behavioral extensions",
+            "homepage": "http://gediminasm.org/",
+            "keywords": [
+                "Blameable",
+                "behaviors",
+                "doctrine2",
+                "extensions",
+                "gedmo",
+                "loggable",
+                "nestedset",
+                "sluggable",
+                "sortable",
+                "timestampable",
+                "translatable",
+                "tree",
+                "uploadable"
+            ],
+            "support": {
+                "email": "gediminas.morkevicius@gmail.com",
+                "issues": "https://github.com/doctrine-extensions/DoctrineExtensions/issues",
+                "source": "https://github.com/doctrine-extensions/DoctrineExtensions/tree/v3.4.0",
+                "wiki": "https://github.com/Atlantic18/DoctrineExtensions/tree/main/doc"
+            },
+            "time": "2021-12-05T19:39:32+00:00"
+        },
+        {
+            "name": "imagine/imagine",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-imagine/Imagine.git",
+                "reference": "6a84addad63baeda0a25079580a2e369a36ceb29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-imagine/Imagine/zipball/6a84addad63baeda0a25079580a2e369a36ceb29",
+                "reference": "6a84addad63baeda0a25079580a2e369a36ceb29",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "2.2.*",
+                "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5 || ^7.4"
+            },
+            "suggest": {
+                "ext-gd": "to use the GD implementation",
+                "ext-gmagick": "to use the Gmagick implementation",
+                "ext-imagick": "to use the Imagick implementation"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Imagine\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bulat Shakirzyanov",
+                    "email": "mallluhuct@gmail.com",
+                    "homepage": "http://avalanche123.com"
+                }
+            ],
+            "description": "Image processing for PHP 5.3",
+            "homepage": "http://imagine.readthedocs.org/",
+            "keywords": [
+                "drawing",
+                "graphics",
+                "image manipulation",
+                "image processing"
+            ],
+            "support": {
+                "issues": "https://github.com/php-imagine/Imagine/issues",
+                "source": "https://github.com/php-imagine/Imagine/tree/1.2.0"
+            },
+            "time": "2018-12-07T16:51:20+00:00"
+        },
+        {
+            "name": "knplabs/knp-components",
+            "version": "v3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KnpLabs/knp-components.git",
+                "reference": "042797f03c40f74136f036c895d896ce1aeb3146"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KnpLabs/knp-components/zipball/042797f03c40f74136f036c895d896ce1aeb3146",
+                "reference": "042797f03c40f74136f036c895d896ce1aeb3146",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ^8.0",
+                "symfony/event-dispatcher-contracts": "^1.1 || ^2.0",
+                "symfony/http-foundation": "^4.4 || ^5.2"
+            },
+            "conflict": {
+                "doctrine/dbal": "<2.10"
+            },
+            "require-dev": {
+                "doctrine/mongodb-odm": "^2.0",
+                "doctrine/orm": "^2.7",
+                "doctrine/phpcr-odm": "^1.2",
+                "ext-pdo_sqlite": "*",
+                "jackalope/jackalope-doctrine-dbal": "^1.2",
+                "phpunit/phpunit": "^9.5",
+                "propel/propel1": "^1.7",
+                "ruflin/elastica": "^7.0",
+                "solarium/solarium": "^6.0",
+                "symfony/http-kernel": "^4.4 || ^5.2",
+                "symfony/property-access": "^4.4 || ^5.2"
+            },
+            "suggest": {
+                "doctrine/common": "to allow usage pagination with Doctrine ArrayCollection",
+                "doctrine/mongodb-odm": "to allow usage pagination with Doctrine ODM MongoDB",
+                "doctrine/orm": "to allow usage pagination with Doctrine ORM",
+                "doctrine/phpcr-odm": "to allow usage pagination with Doctrine ODM PHPCR",
+                "propel/propel1": "to allow usage pagination with Propel ORM",
+                "ruflin/elastica": "to allow usage pagination with ElasticSearch Client",
+                "solarium/solarium": "to allow usage pagination with Solarium Client",
+                "symfony/property-access": "To allow sorting arrays"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Knp\\Component\\": "src/Knp/Component"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "KnpLabs Team",
+                    "homepage": "https://knplabs.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://github.com/KnpLabs/knp-components/contributors"
+                }
+            ],
+            "description": "Knplabs component library",
+            "homepage": "http://github.com/KnpLabs/knp-components",
+            "keywords": [
+                "components",
+                "knp",
+                "knplabs",
+                "pager",
+                "paginator"
+            ],
+            "support": {
+                "issues": "https://github.com/KnpLabs/knp-components/issues",
+                "source": "https://github.com/KnpLabs/knp-components/tree/v3.2.0"
+            },
+            "time": "2021-10-21T06:52:37+00:00"
+        },
+        {
+            "name": "knplabs/knp-paginator-bundle",
+            "version": "v5.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KnpLabs/KnpPaginatorBundle.git",
+                "reference": "d5608abc236b6896a413a924a6637738da9705eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KnpLabs/KnpPaginatorBundle/zipball/d5608abc236b6896a413a924a6637738da9705eb",
+                "reference": "d5608abc236b6896a413a924a6637738da9705eb",
+                "shasum": ""
+            },
+            "require": {
+                "knplabs/knp-components": "^2.4 || ^3.0",
+                "php": "^7.3 || ^8.0",
+                "symfony/config": "^4.4 || ^5.0",
+                "symfony/dependency-injection": "^4.4 || ^5.0",
+                "symfony/event-dispatcher": "^4.4 || ^5.0",
+                "symfony/http-foundation": "^4.4 || ^5.0",
+                "symfony/http-kernel": "^4.4 || ^5.0",
+                "symfony/routing": "^4.4 || ^5.0",
+                "symfony/translation": "^4.4 || ^5.0",
+                "twig/twig": "^2.0 || ^3.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12.93",
+                "phpunit/phpunit": "^8.5 || ^9.4",
+                "symfony/expression-language": "^4.4 || ^5.0",
+                "symfony/templating": "^4.4 || ^5.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Knp\\Bundle\\PaginatorBundle\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "KnpLabs Team",
+                    "homepage": "http://knplabs.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://github.com/KnpLabs/KnpPaginatorBundle/contributors"
+                }
+            ],
+            "description": "Paginator bundle for Symfony to automate pagination and simplify sorting and other features",
+            "homepage": "http://github.com/KnpLabs/KnpPaginatorBundle",
+            "keywords": [
+                "bundle",
+                "knp",
+                "knplabs",
+                "pager",
+                "pagination",
+                "paginator",
+                "symfony"
+            ],
+            "support": {
+                "issues": "https://github.com/KnpLabs/KnpPaginatorBundle/issues",
+                "source": "https://github.com/KnpLabs/KnpPaginatorBundle/tree/v5.7.0"
+            },
+            "time": "2021-09-16T12:21:57+00:00"
+        },
+        {
             "name": "laminas/laminas-code",
             "version": "4.7.1",
             "source": {
@@ -2190,6 +2564,80 @@
             },
             "abandoned": "Symfony",
             "time": "2020-08-25T19:10:18+00:00"
+        },
+        {
+            "name": "stof/doctrine-extensions-bundle",
+            "version": "v1.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stof/StofDoctrineExtensionsBundle.git",
+                "reference": "fa650e60e174afa06c09e28a54fb1854af04c7fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stof/StofDoctrineExtensionsBundle/zipball/fa650e60e174afa06c09e28a54fb1854af04c7fe",
+                "reference": "fa650e60e174afa06c09e28a54fb1854af04c7fe",
+                "shasum": ""
+            },
+            "require": {
+                "gedmo/doctrine-extensions": "^2.3.4 || ^3.0.0",
+                "php": "^7.1.3 || ^8.0",
+                "symfony/config": "^4.4 || ^5.2 || ^6.0",
+                "symfony/dependency-injection": "^4.4 || ^5.2 || ^6.0",
+                "symfony/event-dispatcher": "^4.4 || ^5.2 || ^6.0",
+                "symfony/http-kernel": "^4.4 || ^5.2 || ^6.0"
+            },
+            "require-dev": {
+                "symfony/mime": "^4.4 || ^5.2 || ^6.0",
+                "symfony/phpunit-bridge": "^v5.2.4 || ^6.0",
+                "symfony/security-core": "^4.4 || ^5.2 || ^6.0"
+            },
+            "suggest": {
+                "doctrine/doctrine-bundle": "to use the ORM extensions",
+                "doctrine/mongodb-odm-bundle": "to use the MongoDB ODM extensions",
+                "symfony/mime": "To use the Mime component integration for Uploadable"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Stof\\DoctrineExtensionsBundle\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christophe Coevoet",
+                    "email": "stof@notk.org"
+                }
+            ],
+            "description": "Integration of the gedmo/doctrine-extensions with Symfony",
+            "homepage": "https://github.com/stof/StofDoctrineExtensionsBundle",
+            "keywords": [
+                "behaviors",
+                "doctrine2",
+                "extensions",
+                "gedmo",
+                "loggable",
+                "nestedset",
+                "sluggable",
+                "sortable",
+                "timestampable",
+                "translatable",
+                "tree"
+            ],
+            "support": {
+                "issues": "https://github.com/stof/StofDoctrineExtensionsBundle/issues",
+                "source": "https://github.com/stof/StofDoctrineExtensionsBundle/tree/v1.7.1"
+            },
+            "time": "2022-09-30T11:52:24+00:00"
         },
         {
             "name": "symfony/asset",
@@ -5268,6 +5716,88 @@
             "time": "2022-11-03T14:55:06+00:00"
         },
         {
+            "name": "symfony/polyfill-uuid",
+            "version": "v1.27.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-uuid.git",
+                "reference": "f3cf1a645c2734236ed1e2e671e273eeb3586166"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-uuid/zipball/f3cf1a645c2734236ed1e2e671e273eeb3586166",
+                "reference": "f3cf1a645c2734236ed1e2e671e273eeb3586166",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "provide": {
+                "ext-uuid": "*"
+            },
+            "suggest": {
+                "ext-uuid": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.27-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Uuid\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Grégoire Pineau",
+                    "email": "lyrixx@lyrixx.info"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for uuid functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "uuid"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-uuid/tree/v1.27.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-11-03T14:55:06+00:00"
+        },
+        {
             "name": "symfony/process",
             "version": "v5.2.12",
             "source": {
@@ -6708,6 +7238,76 @@
             "time": "2021-07-21T12:38:00+00:00"
         },
         {
+            "name": "symfony/uid",
+            "version": "v5.2.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/uid.git",
+                "reference": "3604ffeb285e2ad213113aadc891338dfa7e9ff7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/uid/zipball/3604ffeb285e2ad213113aadc891338dfa7e9ff7",
+                "reference": "3604ffeb285e2ad213113aadc891338dfa7e9ff7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/polyfill-uuid": "^1.15"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Uid\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Grégoire Pineau",
+                    "email": "lyrixx@lyrixx.info"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Provides an object-oriented API to generate and represent UIDs",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "UID",
+                "uuid"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/uid/tree/v5.2.11"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-06-23T14:41:09+00:00"
+        },
+        {
             "name": "symfony/validator",
             "version": "v5.2.14",
             "source": {
@@ -7255,6 +7855,75 @@
             ],
             "support": {
                 "source": "https://github.com/twigphp/twig-extra-bundle/tree/v3.5.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/twig/twig",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-12-27T12:23:36+00:00"
+        },
+        {
+            "name": "twig/intl-extra",
+            "version": "v3.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/intl-extra.git",
+                "reference": "92f2c73471e077d0f72195a331c9a245da2010cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/intl-extra/zipball/92f2c73471e077d0f72195a331c9a245da2010cd",
+                "reference": "92f2c73471e077d0f72195a331c9a245da2010cd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.3",
+                "symfony/intl": "^4.4|^5.0|^6.0",
+                "twig/twig": "^2.7|^3.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^4.4.9|^5.0.9|^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Twig\\Extra\\Intl\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "A Twig extension for Intl",
+            "homepage": "https://twig.symfony.com",
+            "keywords": [
+                "intl",
+                "twig"
+            ],
+            "support": {
+                "source": "https://github.com/twigphp/intl-extra/tree/v3.5.0"
             },
             "funding": [
                 {
@@ -9612,7 +10281,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.2.5",
+        "php": ">=7.4",
         "ext-ctype": "*",
         "ext-iconv": "*"
     },
