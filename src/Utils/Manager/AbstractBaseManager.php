@@ -46,7 +46,7 @@ abstract class AbstractBaseManager
      */
     public function remove(object $entity)
     {
-        $entity->setIsDeleted(true);
-        $this->save($entity);
+        $this->entityManager->remove($entity);
+        $this->entityManager->flush();
     }
 }
