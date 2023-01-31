@@ -61,16 +61,18 @@
         General
     </div>
 
-    <div class="sidebar-heading">
-        Users
+    {% if is_granted('ROLE_SUPER_ADMIN') %}
         <div class="sidebar-heading">
-            <a class="collapse-item" href="{{ path('admin_user_list') }}">All list</a>
-        </div>
+            Users
+            <div class="sidebar-heading">
+                <a class="collapse-item" href="{{ path('admin_user_list') }}">All list</a>
+            </div>
 
-        <div class="sidebar-heading">
-            <a class="collapse-item" href="{{ path('admin_user_add') }}">Add new</a>
+            <div class="sidebar-heading">
+                <a class="collapse-item" href="{{ path('admin_user_add') }}">Add new</a>
+            </div>
         </div>
-    </div>
+    {% endif %}
 
 
     <hr class="sidebar-divider d-none d-md-block">
